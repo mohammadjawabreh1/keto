@@ -1,0 +1,44 @@
+.sec4{
+
+}
+.sec4 .item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec4 .item1 .box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec4  h1 {
+    text-align: center;
+    padding: 85px 0 40px;
+}
+.sec4 .item1 .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:space-between ;
+    column-gap: 10px;
+    width: 36%;
+    margin: auto;
+    padding: 5px;
+}
+.sec4 .item1 h3{
+    color: var(--btc);
+    padding: 10px;
+}
+.sec4 .item1 .text p:last-child{
+    opacity: 0.5;
+}
+.sec4 .item2 {
+    display: flex;
+    flex-direction: col;
+}
+.sec4 .item2 .box{
+    width: 30%;
+    display: flex;
+    
+}
